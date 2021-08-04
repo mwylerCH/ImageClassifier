@@ -5,7 +5,19 @@
 ### Training
 First train the model. Requires a folder containing only images (-F) and a manually curated classification (-C)
 
-`perl ImageClassifier/Classy.pl -T Train -F Trainer -C ImageClassifier/classification.csv`
+`perl ImageClassifier/Classy.pl -T Train -F Trainer -C classification.csv`
+
+The require manual classification needs to be in csv format, as follow:
+
+image1.jpg,tree
+
+image2.jpg,tree
+
+image3.jpg,flower
+
+
+
+                                    
 
 ### Prediction
 
